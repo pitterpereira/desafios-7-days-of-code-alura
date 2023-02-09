@@ -1,7 +1,7 @@
 
 const frutas = ["maçã", "banana"], laticinios = ["leite", "queijo"], congelados = ["carne"], doces = ["brigadeiro", "cajuzinho"];
 
-let adicionar;
+let continuar, deletar;
 
 let item, categoria;
 
@@ -30,7 +30,21 @@ do {
             alert("Não foi inserido um valor válido");
     };
 
-    adicionar = Number(prompt(`Deseja adicionar mais um item à sua lista de compras? 0 - Não / 1 - Sim`));
+    if(Number(prompt(`Deseja adicionar mais um item à sua lista de compras? 0 - Não / 1 - Sim`)))
+        continue;
+    else if(Number(prompt(`Deseja remover algum item da sua lista de compras? 0 - Não / 1 - Sim`))) {
+        do{
+
+            // A lógica do programa está incompleta
+
+
+            let categoria_delete = prompt("Digite o nome da categoria onde o item está:");
+
+            categoria_delete === "frutas" ? 
+
+
+        } while (Number(prompt(`Deseja remover algum item da sua lista de compras? 0 - Não / 1 - Sim`));
+    }
 
 } while (adicionar);
 
